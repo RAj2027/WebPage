@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image" href="/webUI/icons8-pinwheel-94.png">
+        <title>WEBUI</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <header>
+                <div class="logo">
+                    <img src="/webUI/logo.png" alt="logo">
+                </div>
+                <nav>
+                    <div class="navi">
+                        <ul>
+                            <li><a
+                                    href="/webUI/index.html">home</a></li>
+                            <li><a target="_blank"
+                                    href="/portfolio/index.html">about</a></li>
+                            <li><a target="_blank"
+                                    href="/supra/index.html">projects</a></li>
+                            <li><a target="_blank"
+                                    href="/demonslyr/dmn.html">anime</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar">
+                        <ul>
+                            <li onclick=hidesidebar() id="hide"><a
+                                    href="#close"><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 384 512" width="25"
+                                        hieght="25"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" /></svg></a></li>
+                            <li> <a href="/webUI/index.html">Home</a></li>
+                            <li><a href="/portfolio/index.html">Portfolio</a></li>
+                            <li><a href="/supra/index.html">Project</a></li>
+                            <li><a href="/portfolio/index.html">About</a></li>
+                            <li><a href="/regform/regform.html">Register</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="menu">
+                    <img onclick=showsidebar()
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg==" />
+                </div>
+                <script>
+                    function showsidebar() {
+                        const  sidebar = document.querySelector('.sidebar')
+                        sidebar.style.display = 'flex'
+                    }
+                    function hidesidebar() {
+                        const  sidebar = document.querySelector('.sidebar')
+                        sidebar.style.display = 'none'
+                    }
+                </script>
+            </header>
+            <main><div class="char">
+                    <div class="title">
+                        <h1>WEBPAGE <span class="color1">UI</span> <br> in
+                            <span
+                                class="color2">MAKING</span></h1>
+                    </div>
+                    <div class="gurl">
+                        <img src="/webUI/gurl.png" alt="gurll">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="info">
+                        <h3>THIS IS A FULLY RESPONSIVE WEPAGE <br> DESIGNED
+                            BY
+                            USING
+                            HTML AND CSS </h3>
+                    </div>
+                    <div class="button">
+                        <button>LET'S GO</button>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="fyi">
+                    <div class="content">
+                        <h1>JUst fyi</h1>
+                        <div class="child">
+                            <p>The Nissan GT-R is a
+                                high-performance sports car
+                                with a 3.8-liter twin-turbo
+                                V6 engine, producing
+                                up to 600 horsepower,
+                                AWD, 0-60 mph in 2.9 seconds,
+                                and a top speed of 196 mph.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="/webUI/RX-09.jpeg" alt="image">
+                    <div><span>Another <a target="_blank"
+                                href="/portfolio/index.html">PROJECT</a>
+                            <br> by
+                            me </span></div>
+                </div>
+
+                <div class="word"><h2>Prototype</h2></div>
+            </footer>
+        </div>
+    </body>
+</html>
